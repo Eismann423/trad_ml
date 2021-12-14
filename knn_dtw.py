@@ -3,7 +3,7 @@ import numpy as np
 from pandas import read_csv
 from scipy.spatial import distance
 from sklearn.model_selection import train_test_split
-from sklearn.neighbors import KNeighborsClassifier
+from sklearn.neighbors import KNeighborsClassifier"
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import classification_report
 from sklearn.preprocessing import StandardScaler
@@ -47,6 +47,6 @@ clf.fit(X_train_scaled, y_train)
 
 
 
-#evaluate
+#evaluate"
 y_pred = clf.predict(X_test)
 print(classification_report(y_test, y_pred))
