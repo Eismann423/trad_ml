@@ -1,0 +1,27 @@
+SVM grid search results for datasets_single\dataset_multiaug5.csv
+
+Best score for training data: 0.686667
+Best C: 100
+Best Kernel: rbf
+Best Gamma: 0.0001
+
+Confusion Matrix:
+[[40 16  8  1]
+ [12 35 12  2]
+ [10 11 31 10]
+ [ 4  1  5 52]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         1.0       0.61      0.62      0.61        65
+         2.0       0.56      0.57      0.56        61
+         3.0       0.55      0.50      0.53        62
+         4.0       0.80      0.84      0.82        62
+
+    accuracy                           0.63       250
+   macro avg       0.63      0.63      0.63       250
+weighted avg       0.63      0.63      0.63       250
+
+Training set score for SVM: 0.936000
+Testing set score for SVM: 0.632000

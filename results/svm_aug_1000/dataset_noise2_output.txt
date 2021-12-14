@@ -1,0 +1,27 @@
+SVM grid search results for dataset_noise2.csv
+
+Best score for training data: 0.788000
+Best C: 10
+Best Kernel: rbf
+Best Gamma: 0.0001
+
+Confusion Matrix:
+[[46 16  3  0]
+ [12 36 13  0]
+ [ 8  6 42  6]
+ [ 2  0  2 58]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         1.0       0.68      0.71      0.69        65
+         2.0       0.62      0.59      0.61        61
+         3.0       0.70      0.68      0.69        62
+         4.0       0.91      0.94      0.92        62
+
+    accuracy                           0.73       250
+   macro avg       0.73      0.73      0.73       250
+weighted avg       0.73      0.73      0.73       250
+
+Training set score for SVM: 0.892000
+Testing set score for SVM: 0.728000

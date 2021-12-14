@@ -1,0 +1,27 @@
+KNN grid search results for dataset_drift2.csv
+
+Best score for training data: 0.541333
+Best K-value: 11
+Best Weight: distance
+Best Metric: manhattan
+
+Confusion Matrix:
+[[40 13  6  6]
+ [16 19 12 14]
+ [ 7 13 20 22]
+ [ 3  0  6 53]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         1.0       0.61      0.62      0.61        65
+         2.0       0.42      0.31      0.36        61
+         3.0       0.45      0.32      0.38        62
+         4.0       0.56      0.85      0.68        62
+
+    accuracy                           0.53       250
+   macro avg       0.51      0.53      0.51       250
+weighted avg       0.51      0.53      0.51       250
+
+Training set score for KNN: 0.950667
+Testing set score for KNN: 0.528000

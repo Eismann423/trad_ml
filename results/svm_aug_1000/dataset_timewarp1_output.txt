@@ -1,0 +1,27 @@
+SVM grid search results for dataset_timewarp1.csv
+
+Best score for training data: 0.842667
+Best C: 10
+Best Kernel: rbf
+Best Gamma: 0.001
+
+Confusion Matrix:
+[[46 17  2  0]
+ [11 38 12  0]
+ [ 5  0 51  6]
+ [ 0  0  4 58]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         1.0       0.74      0.71      0.72        65
+         2.0       0.69      0.62      0.66        61
+         3.0       0.74      0.82      0.78        62
+         4.0       0.91      0.94      0.92        62
+
+    accuracy                           0.77       250
+   macro avg       0.77      0.77      0.77       250
+weighted avg       0.77      0.77      0.77       250
+
+Training set score for SVM: 0.897333
+Testing set score for SVM: 0.772000

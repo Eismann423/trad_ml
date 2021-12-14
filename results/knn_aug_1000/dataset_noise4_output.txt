@@ -1,0 +1,27 @@
+KNN grid search results for datasets_single\dataset_noise4.csv
+
+Best score for training data: 0.769333
+Best K-value: 5
+Best Weight: distance
+Best Metric: euclidean
+
+Confusion Matrix:
+[[45 17  3  0]
+ [13 36 12  0]
+ [ 7  9 40  6]
+ [ 2  1  1 58]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         1.0       0.67      0.69      0.68        65
+         2.0       0.57      0.59      0.58        61
+         3.0       0.71      0.65      0.68        62
+         4.0       0.91      0.94      0.92        62
+
+    accuracy                           0.72       250
+   macro avg       0.72      0.72      0.72       250
+weighted avg       0.72      0.72      0.72       250
+
+Training set score for KNN: 0.937333
+Testing set score for KNN: 0.716000

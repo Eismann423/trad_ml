@@ -1,0 +1,27 @@
+SVM grid search results for dataset_drift5.csv
+
+Best score for training data: 0.668000
+Best C: 1
+Best Kernel: linear
+Best Gamma: scale
+
+Confusion Matrix:
+[[46 12  5  2]
+ [21 29 10  1]
+ [17  8 27 10]
+ [ 2  0  3 57]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         1.0       0.53      0.71      0.61        65
+         2.0       0.59      0.48      0.53        61
+         3.0       0.60      0.44      0.50        62
+         4.0       0.81      0.92      0.86        62
+
+    accuracy                           0.64       250
+   macro avg       0.64      0.63      0.63       250
+weighted avg       0.63      0.64      0.63       250
+
+Training set score for SVM: 0.893333
+Testing set score for SVM: 0.636000

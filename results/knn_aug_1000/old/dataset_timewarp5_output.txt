@@ -1,0 +1,27 @@
+KNN grid search results for dataset_timewarp5.csv
+
+Best score for training data: 0.834667
+Best K-value: 11
+Best Weight: distance
+Best Metric: euclidean
+
+Confusion Matrix:
+[[46 16  2  1]
+ [11 38 11  1]
+ [ 5  0 50  7]
+ [ 0  0  3 59]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         1.0       0.74      0.71      0.72        65
+         2.0       0.70      0.62      0.66        61
+         3.0       0.76      0.81      0.78        62
+         4.0       0.87      0.95      0.91        62
+
+    accuracy                           0.77       250
+   macro avg       0.77      0.77      0.77       250
+weighted avg       0.77      0.77      0.77       250
+
+Training set score for KNN: 0.926667
+Testing set score for KNN: 0.772000

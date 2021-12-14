@@ -1,0 +1,27 @@
+KNN grid search results for datasets_single\dataset_multiaug1.csv
+
+Best score for training data: 0.621333
+Best K-value: 5
+Best Weight: distance
+Best Metric: manhattan
+
+Confusion Matrix:
+[[44 11  7  3]
+ [13 24 16  8]
+ [ 9 10 29 14]
+ [ 1  1  4 56]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         1.0       0.66      0.68      0.67        65
+         2.0       0.52      0.39      0.45        61
+         3.0       0.52      0.47      0.49        62
+         4.0       0.69      0.90      0.78        62
+
+    accuracy                           0.61       250
+   macro avg       0.60      0.61      0.60       250
+weighted avg       0.60      0.61      0.60       250
+
+Training set score for KNN: 1.000000
+Testing set score for KNN: 0.612000
